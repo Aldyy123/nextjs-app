@@ -1,0 +1,32 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+.section li{
+    text-align: center;
+    transition: all 0.5s ease-in;
+    padding: 10px;
+    list-style: none;
+    background: black;
+    color: wheat;
+    width: 200px;
+    border-radius: 10px;
+}
+.section li:hover, .active{
+    background-color: red!important;
+}
+
+@media only screen and (max-width: 680px) {
+    .section{
+        gap: 20px;
+    }
+    .section li{
+        padding: 5px;
+    }
+    .active{
+        visibility: visible!important;
+        display: block!important;
+        margin: 0 auto;
+    }
+}

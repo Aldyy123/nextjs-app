@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container{
+  padding: 0 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container-content{
+  background-color: #8BB7C0;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1600px;
+  padding: 20px;
+  margin: 0 auto;
+}

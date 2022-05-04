@@ -1,0 +1,40 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.github-section{
+    display: flex;
+    justify-content: center;
+}
+.github-section a{
+    padding: 10px 20px!important;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+.github-section a:hover{
+    border: 1px solid grey;
+    border-radius: none;
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 950px) {
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .projects{
+        grid-template-columns: 1fr;
+    }
+}
