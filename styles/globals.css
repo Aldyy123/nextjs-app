@@ -26,5 +26,6 @@ a {
   width: 100%;
   max-width: 1600px;
   padding: 20px;
+  margin-bottom: 3rem!important;
   margin: 0 auto;
 }
