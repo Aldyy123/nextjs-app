@@ -3,18 +3,21 @@
         "id": 1,
         "title": "konsultasi",
         "image": "/projects/consultant.png",
-        "text": "Aplikasi konsultasi layanan komputer secara online yang bisa membantu orang untuk menyelesaikan masalah elekronik. \nLayanan komputer ini bisa di dapatkan di kota manamun, selama ada teknisi yang tersedia di lokasi"
+        "text": "Aplikasi konsultasi layanan komputer secara online yang bisa membantu orang untuk menyelesaikan masalah elekronik. \nLayanan komputer ini bisa di dapatkan di kota manamun, selama ada teknisi yang tersedia di lokasi",
+        "langs" : ["JS", "React Js", "API"]
     },
     {
         "id": 2,
         "title": "API Konsultasi",
         "image": "/projects/api-consultant.png",
+        "langs" : ["Typescript", "Nest Js"],
         "text": "Data API konsultasi menggunakan nest js untuk membuat system backendnya. Mulai untuk login, register maupun management data."
     },
     {
         "id": 3,
         "title": "Todo React",
         "image": "https://raw.githubusercontent.com/Aldyy123/todo-react/master/doc.png",
+        "langs" : ["JS", "React Js"],
         "text": "Aplikasi yang digunakan untuk membuat todo list user. Todo list ini hanya menggunakan state management system."
     }
 ]

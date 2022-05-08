@@ -5,6 +5,10 @@ export default function About() {
         <>
         <Head>
             <title>About Me</title>
+            <meta name="description" content="M. Ardi Trisnaldi - About Me" />
+            <meta name="og:description" content="M. Ardi Trisnaldi - About Me" />
+            <meta name="og:title" content="About me - M. Ardi Trisnaldi" />
+            <meta name="og:type" content="website" />
         </Head>
             <p>Hai 👋 selamat datang.</p>
             <p>

@@ -8,17 +8,26 @@ export default function Project(props) {
         <>
             <Head>
                 <title>Project</title>
+                <meta name="description" content="M. Ardi Trisnaldi - Projects" />
+                <meta name="og:description" content="M. Ardi Trisnaldi - Projects" />
+                <meta name="og:title" content="Projects - M. Ardi Trisnaldi" />
+                <meta name="og:type" content="website" />
             </Head>
             <div className={styles.projects}>
                 {fileJson.map(value => (
                     <div key={value.id}>
                         <a href="">
-                            <Image style={{
-                                borderRadius: '20px'
-                            }} src={value.image} alt={value.title} width={500} height={200} />
+                            <Image src={value.image} alt={value.title} width={500} height={200} />
                         </a>
                         <h2>{value.title}</h2>
                         <p>{value.text}</p>
+                        <div>
+                            {value.langs.map(lang => (
+                                <div className={styles['stack-lang']} key={lang}>
+                                    {lang}
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 ))}
             </div>

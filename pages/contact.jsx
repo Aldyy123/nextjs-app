@@ -4,9 +4,13 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <>
-        <Head>
-            <title>Contact</title>
-        </Head>
+            <Head>
+                <title>Contact</title>
+                <meta name="description" content="M. Ardi Trisnaldi - Contact" />
+                <meta name="og:description" content="M. Ardi Trisnaldi - Contact" />
+                <meta name="og:title" content="Contact - M. Ardi Trisnaldi" />
+                <meta name="og:type" content="website" />
+            </Head>
             <section style={{ display: "flex", justifyContent: 'center', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
                 <p>Jika anda ada waktu untuk membahasa hal yang penting bisa hubungi saya</p>
                 <a style={{ background: 'red', padding: '5px 50px', color: 'white' }} href="">
@@ -25,8 +29,16 @@ export default function Contact() {
                     <a href="https://www.instagram.com/aldyy231/" rel='noreferrer' target={'_blank'}>
                         <Image width="35px" height="35px" src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="ig" />
                     </a>
+                    <a href="https://www.linkedin.com/in/mohammad-ardi-trisnaldi/" rel='noreferrer' target={'_blank'}>
+                        <Image width="35px" height="35px" src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="Linkeding" />
+                    </a>
                 </div>
-                <a target="_blank" rel='noreferrer' href="https://icons8.com/icon/uLWV5A9vXIPu/facebook">icon by Icons8</a>
+                <p>
+                    Icon by
+                    <a target="_blank" rel='noreferrer' style={{
+                        color: 'blue'
+                    }} href="https://icons8.com/icon"> Icons8</a>
+                </p>
             </section>
         </>
     )

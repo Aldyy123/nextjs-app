@@ -8,6 +8,8 @@
 .img-profile{
     width: 200px!important;
     max-width: 200px;
+    box-shadow: 15px 15px 3px #8BB7C0;
+    border-radius: 20px!important;
 }
 .img-profile img{
     border-radius: 20px!important;
