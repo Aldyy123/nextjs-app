@@ -19,5 +19,26 @@
         "image": "https://raw.githubusercontent.com/Aldyy123/todo-react/master/doc.png",
         "langs" : ["JS", "React Js"],
         "text": "Aplikasi yang digunakan untuk membuat todo list user. Todo list ini hanya menggunakan state management system."
+    },
+    {
+        "id": 4,
+        "title": "Restaurant",
+        "image": "/projects/resto.png",
+        "langs" : ["JS", "CSS", "Webpack", "API"],
+        "text": "Aplikasi list tempat restaurant menggunakan API dari Dicoding"
+    },
+    {
+        "id": 5,
+        "title": "Pembukuan Excel",
+        "image": "https://raw.githubusercontent.com/Aldyy123/pebukuan-excel/master/doc/system.png",
+        "langs" : ["Python"],
+        "text": "Aplikasi untuk pencatatan keuangan menggunakna python dan mencataat otomatis di excel"
+    },
+    {
+        "id": 6,
+        "title": "CRUD Wisata dan pengunjung",
+        "image": "/projects/wisata.png",
+        "langs" : ["PHP", "Bootstrap", "MYSQL"],
+        "text": "CRUD wisata dan pemesanan tiket wisata untuk pengunjung"
     }
 ]
