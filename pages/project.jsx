@@ -16,7 +16,7 @@ export default function Project(props) {
             <div className={styles.projects}>
                 {fileJson.map(value => (
                     <div key={value.id}>
-                        <a href="">
+                        <a href={value.url} target="_blank" rel='noreferrer'>
                             <Image src={value.image} alt={value.title} width={500} height={200} />
                         </a>
                         <h2>{value.title}</h2>

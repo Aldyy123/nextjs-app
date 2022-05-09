@@ -4,19 +4,22 @@
         "title": "konsultasi",
         "image": "/projects/consultant.png",
         "text": "Aplikasi konsultasi layanan komputer secara online yang bisa membantu orang untuk menyelesaikan masalah elekronik. \nLayanan komputer ini bisa di dapatkan di kota manamun, selama ada teknisi yang tersedia di lokasi",
-        "langs" : ["JS", "React Js", "API"]
+        "langs" : ["JS", "React Js", "API"],
+        "url" : "https://github.com/Aldyy123/konsultasi"
     },
     {
         "id": 2,
         "title": "API Konsultasi",
         "image": "/projects/api-consultant.png",
         "langs" : ["Typescript", "Nest Js"],
+        "url" : "https://github.com/Aldyy123/api-consultant",
         "text": "Data API konsultasi menggunakan nest js untuk membuat system backendnya. Mulai untuk login, register maupun management data."
     },
     {
         "id": 3,
         "title": "Todo React",
         "image": "https://raw.githubusercontent.com/Aldyy123/todo-react/master/doc.png",
+        "url" : "https://github.com/Aldyy123/todo-react",
         "langs" : ["JS", "React Js"],
         "text": "Aplikasi yang digunakan untuk membuat todo list user. Todo list ini hanya menggunakan state management system."
     },
@@ -24,6 +27,7 @@
         "id": 4,
         "title": "Restaurant",
         "image": "/projects/resto.png",
+        "url" : "https://github.com/Aldyy123/Restaurants-apps",
         "langs" : ["JS", "CSS", "Webpack", "API"],
         "text": "Aplikasi list tempat restaurant menggunakan API dari Dicoding"
     },
@@ -31,12 +35,14 @@
         "id": 5,
         "title": "Pembukuan Excel",
         "image": "https://raw.githubusercontent.com/Aldyy123/pebukuan-excel/master/doc/system.png",
+        "url" : "https://github.com/Aldyy123/pebukuan-excel",
         "langs" : ["Python"],
         "text": "Aplikasi untuk pencatatan keuangan menggunakna python dan mencataat otomatis di excel"
     },
     {
         "id": 6,
         "title": "CRUD Wisata dan pengunjung",
+        "url" : "https://github.com/Aldyy123/bnsp",
         "image": "/projects/wisata.png",
         "langs" : ["PHP", "Bootstrap", "MYSQL"],
         "text": "CRUD wisata dan pemesanan tiket wisata untuk pengunjung"

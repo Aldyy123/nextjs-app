@@ -13,7 +13,7 @@
 }
 .projects > div{
     border-radius: 10px;
-    box-shadow: 0px 10px 15px;
+    box-shadow: 0px 3px 15px;
     background-color: rgb(202, 218, 232);
     object-fit: cover;
 }
