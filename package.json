@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "html": "next build && next export"
+    "html" : "next build && next export",
+    "export" : "next export"
   },
   "dependencies": {
     "next": "12.1.5",
