@@ -11,9 +11,9 @@ export default function Contact() {
                 <meta name="og:title" content="Contact - M. Ardi Trisnaldi" />
                 <meta name="og:type" content="website" />
             </Head>
-            <section style={{ display: "flex", justifyContent: 'center', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
+            <section style={{ display: "flex", justifyContent: 'center', flexDirection: 'column', alignItems: 'center', gap: 10, color: 'white' }}>
                 <p>Jika anda ada waktu untuk membahasa hal yang penting bisa hubungi saya</p>
-                <a style={{ background: 'red', padding: '5px 50px', color: 'white' }} href="">
+                <a style={{ background: '#3b525c', padding: '5px 50px', color: 'white' }} href="mailto:mohammad.aldyy@gmail.com" rel="noreferrer">
                     Talk me
                 </a>
                 <div style={{
@@ -36,7 +36,7 @@ export default function Contact() {
                 <p>
                     Icon by
                     <a target="_blank" rel='noreferrer' style={{
-                        color: 'blue'
+                        color: '#F2FA5A'
                     }} href="https://icons8.com/icon"> Icons8</a>
                 </p>
             </section>

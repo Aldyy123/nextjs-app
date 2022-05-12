@@ -7,8 +7,8 @@ export default function Navbar() {
     return (
         <>
             <section className={styles.section}>
-                <li className={router.pathname === '/about' ? styles.active : ''}>
-                    <Link href={'/about'}>About me</Link>
+                <li className={router.pathname === '/' ? styles.active : ''}>
+                    <Link href={'/'}>About me</Link>
                 </li>
                 <li className={router.pathname === '/project' ? styles.active : ''}>
                     <Link href={'/project'}>Project</Link>

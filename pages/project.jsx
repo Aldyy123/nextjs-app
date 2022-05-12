@@ -15,10 +15,10 @@ export default function Project(props) {
             </Head>
             <div className={styles.projects}>
                 {fileJson.map(value => (
-                    <div key={value.id}>
-                        <a href={value.url} target="_blank" rel='noreferrer'>
+                    <a href={value.url} target="_blank" rel='noreferrer' key={value.id}>
+                        <div>
                             <Image src={value.image} alt={value.title} width={500} height={200} />
-                        </a>
+                        </div>
                         <h2>{value.title}</h2>
                         <p>{value.text}</p>
                         <div>
@@ -28,7 +28,7 @@ export default function Project(props) {
                                 </div>
                             ))}
                         </div>
-                    </div>
+                    </a>
                 ))}
             </div>
 

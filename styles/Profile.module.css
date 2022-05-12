@@ -8,16 +8,20 @@
 .img-profile{
     width: 200px!important;
     max-width: 200px;
-    box-shadow: 15px 15px 3px #8BB7C0;
+    box-shadow: 15px 15px 3px #4D77FF;
     border-radius: 20px!important;
 }
 .img-profile img{
     border-radius: 20px!important;
+}
+.name-profile h2, .name-profile h3{
+    font-family: 'Cabin', sans-serif;
 }
 
 @media only screen and (max-width: 680px) {
     .profile{
         grid-template-columns: auto;
         justify-content: center!important;
+        text-align: center;
     }
 }

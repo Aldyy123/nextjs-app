@@ -9,9 +9,9 @@ export default function Profile(){
                 <div className={styles['img-profile']}>
                     <Image layout="responsive" src={profile} alt="user" />
                 </div>
-                <div className="name-profile">
+                <div className={styles['name-profile']}>
                     <h2>M. Ardi Trisnaldi</h2>
-                    <h3>Freelance Fullstack Dev</h3>
+                    <h3>Web Developer Enthusiast</h3>
                 </div>
             </div>
         </>

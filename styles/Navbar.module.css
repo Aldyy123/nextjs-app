@@ -8,13 +8,15 @@
     transition: all 0.5s ease-in;
     padding: 10px;
     list-style: none;
-    background: black;
-    color: wheat;
+    background: #42C2FF;
+    color: #F2FA5A;
     width: 200px;
     border-radius: 10px;
 }
 .section li:hover, .active{
-    background-color: red!important;
+    background-color: #4D77FF!important;
+    color: #F2F2F2!important;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 680px) {

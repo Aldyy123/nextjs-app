@@ -4,15 +4,6 @@ const nextConfig = {
   images: {
     domains: ["cdn.pixabay.com", 'img.icons8.com', 'raw.githubusercontent.com']
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/about',
-        permanent: true,
-      },
-    ]
-  },
   images: {
     loader : "akamai",
     path : "",

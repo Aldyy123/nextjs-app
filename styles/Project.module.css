@@ -10,19 +10,17 @@
 }
 .projects p{
     margin: 0 15px;
+    font-family: 'Assistant', sans-serif;
 }
-.projects > div{
+.projects > a{
     border-radius: 10px;
-    box-shadow: 0px 3px 15px;
-    background-color: rgb(202, 218, 232);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    background-color: #EFFFFD;
+}
+.projects > a img{
     object-fit: cover;
 }
-.projects > div img{
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.projects > div > div{
+.projects > a > div{
     display: flex;
     gap: 10px;
     margin: 15px;
@@ -41,7 +39,7 @@
 .github-section a{
     padding: 10px 20px!important;
     display: inline-block;
-    background-color: red;
+    background-color: #3b525c;
     color: white;
     border-radius: 10px;
     transition: all 0.5s ease-out;

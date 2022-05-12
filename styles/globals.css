@@ -1,4 +1,4 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cabin&display=swap');html,
 body {
   padding: 0;
   margin: 0;
@@ -21,11 +21,14 @@ a {
   margin: 0 auto;
 }
 .container-content{
-  background-color: #8BB7C0;
+  background-color: #4D77FF;
   border-radius: 10px;
   width: 100%;
   max-width: 1600px;
   padding: 20px;
   margin-bottom: 3rem!important;
   margin: 0 auto;
+}
+.container-content > p{
+  color: white;
 }
