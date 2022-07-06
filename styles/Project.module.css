@@ -15,7 +15,7 @@
 .projects > a{
     border-radius: 10px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-    background-color: #EFFFFD;
+    background-color: #ffffff;
 }
 .projects > a img{
     object-fit: cover;
