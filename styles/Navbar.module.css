@@ -1,24 +1,40 @@
+.title-navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-navbar h2{
+    letter-spacing: 5px;
+}
+.title-navbar hr{
+    width: 150px;
+    height: 5px;
+    background-color: #4C3575;
+}
 .section{
     display: flex;
-    justify-content: space-between;
-    margin: 15px auto;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px auto;
 }
 .section li{
     text-align: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
     padding: 10px;
+    color: #7858A6;
     list-style: none;
-    background: #42C2FF;
-    color: #F2FA5A;
-    width: 200px;
+    padding: 10px 20px;
+    font-size: 14px;
     border-radius: 10px;
+    border: 1px solid #371B58;
 }
 .section li:hover, .active{
-    background-color: #4D77FF!important;
-    color: #F2F2F2!important;
+    border: none!important;
+    border-bottom: 2px solid #371B58!important;
+    border-radius: 0!important;
     font-weight: bold;
 }
-
 @media only screen and (max-width: 680px) {
     .section{
         gap: 20px;
