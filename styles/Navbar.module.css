@@ -32,7 +32,6 @@
 }
 .section li > a:hover, .active{
     border: none!important;
-    border-bottom: 2px solid #371B58!important;
     border-radius: 0!important;
     font-weight: bold;
 }

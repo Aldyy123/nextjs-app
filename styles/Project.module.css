@@ -4,15 +4,22 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.projects > a:hover,.projects > a:hover p{
+    background-color: #5B4B8A;
+    color: #ECECEC;
+    transition: all 0.5 ease-in-out;
+}
 .projects h2{
-    text-align: center;
+    text-align: center; 
     text-transform: uppercase;
 }
 .projects p{
     margin: 0 15px;
-    font-family: 'Assistant', sans-serif;
+    transition: all 0.5 ease-in-out;
+    color: #7858A6;
 }
 .projects > a{
+    transition: all 0.5 ease-in-out;
     border-radius: 10px;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
     background-color: #ffffff;
@@ -27,9 +34,10 @@
 }
 .projects .stack-lang{
     padding: 5px;
-    background-color: rgb(33, 174, 235);
+    background-color: #7858A6;
     border-radius: 5px;
-    color: rgb(34, 70, 101);
+    color: #F1F1F1;
+    letter-spacing: 2px;
 }
 .github-section{
     margin-top: 20px;
@@ -39,15 +47,15 @@
 .github-section a{
     padding: 10px 20px!important;
     display: inline-block;
-    background-color: #3b525c;
-    color: white;
+    background-color: #b0b2b2;
+    color: #5B4B8A;
     border-radius: 10px;
     transition: all 0.5s ease-out;
 }
 .github-section a:hover{
     border-radius: none;
-    background-color: white;
-    color: black;
+    background-color: #5B4B8A;
+    color: white;
     content: 'haloo';
 }
 

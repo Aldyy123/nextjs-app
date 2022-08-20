@@ -1,8 +1,7 @@
-import Link from "next/link"
 import styles from '../styles/Navbar.module.css'
 import { useRouter } from "next/router";
 import { useSpring, animated } from 'react-spring'
-
+import Navlink from "./Navlink";
 
 export default function Navbar() {
     const router = useRouter()
@@ -18,27 +17,9 @@ export default function Navbar() {
                 <animated.hr style={props} />
             </div>
             <section className={styles.section}>
-                <li className={`poppins`}>
-                    <Link href={'/'} passHref>
-                        <a className={`${router.pathname === '/' ? styles.active : ''}`}>
-                            About me
-                        </a>
-                    </Link>
-                </li>
-                <li className={` poppins`}>
-                    <Link href={'/project'}>
-                        <a className={`${router.pathname === '/project' ? styles.active : ''}`}>
-                            Project
-                        </a>
-                    </Link>
-                </li>
-                <li className={` poppins`}>
-                    <Link href={'/contact'}>
-                        <a className={`${router.pathname === '/contact' ? styles.active : ''}`}>
-                            Contact
-                        </a>
-                    </Link>
-                </li>
+                <Navlink href={'/'} title="About me" />
+                <Navlink href={'/project'} title="Project" />
+                <Navlink href={'/contact'} title="Contact" />
             </section>
         </>
     )

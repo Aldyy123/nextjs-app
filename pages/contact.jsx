@@ -33,19 +33,19 @@ export default function Contact() {
                         </a>
                     </li>
                     <li >
-                        <a href="www.linkedin.com/mohammad-ardi-trisnaldi">
+                        <a href="https://linkedin.com/in/mohammad-ardi-trisnaldi">
                             <ImLinkedin style={{ fontSize: 30, color: "black" }} />
-                            linkedin.com/mohammad-ardi-trisnaldi
+                            linkedin.com/in/mohammad-ardi-trisnaldi
                         </a>
                     </li>
                     <li >
-                        <a href="www.instagram.com/aldyy231">
+                        <a href="https://instagram.com/aldyy231">
                             <RiInstagramFill style={{ fontSize: 30, color: "black" }} />
                             instagram.com/aldyy231
                         </a>
                     </li>
                     <li >
-                        <a href="www.github.com/Aldyy123">
+                        <a href="https://github.com/Aldyy123">
                             <ImGithub style={{ fontSize: 30, color: "black" }} />
                             github.com/Aldyy123
                         </a>
