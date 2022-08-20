@@ -20,16 +20,17 @@
 }
 .section li{
     text-align: center;
-    transition: all 0.2s ease-in;
-    padding: 10px;
     color: #7858A6;
     list-style: none;
-    padding: 10px 20px;
     font-size: 14px;
+}
+.section li > a{
+    transition: all 0.2s ease-in;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid #371B58;
 }
-.section li:hover, .active{
+.section li > a:hover, .active{
     border: none!important;
     border-bottom: 2px solid #371B58!important;
     border-radius: 0!important;
@@ -37,14 +38,16 @@
 }
 @media only screen and (max-width: 680px) {
     .section{
-        gap: 20px;
+        display: block;
+        gap: 0;
     }
     .section li{
+        margin: 20px auto;
         padding: 5px;
+        max-width: 200px;
     }
     .active{
         visibility: visible!important;
-        display: block!important;
         margin: 0 auto;
     }
 }

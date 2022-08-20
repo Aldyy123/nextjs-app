@@ -24,11 +24,11 @@ export default function Project(props) {
                         <div>
                             <Image src={value.image} alt={value.title} width={500} height={200} />
                         </div>
-                        <h2>{value.title}</h2>
-                        <p>{value.text}</p>
+                        <h2 className="mouse-memoirs">{value.title}</h2>
+                        <p className="poppins">{value.text}</p>
                         <div>
                             {value.langs.map(lang => (
-                                <div className={styles['stack-lang']} key={lang}>
+                                <div className={`${styles['stack-lang']} mouse-memoirs`} key={lang}>
                                     {lang}
                                 </div>
                             ))}

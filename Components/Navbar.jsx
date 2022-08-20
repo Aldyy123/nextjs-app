@@ -1,18 +1,16 @@
 import Link from "next/link"
 import styles from '../styles/Navbar.module.css'
 import { useRouter } from "next/router";
-import { useState } from "react";
 import { useSpring, animated } from 'react-spring'
 
 
 export default function Navbar() {
     const router = useRouter()
-    const [show, setShow] = useState(false)
-    
-    const props = useSpring({ 
-        to: { opacity: 1, translateX: '0' }, from: { opacity: 0, translateX: '-40px' } , delay: 400,
-        onRest: () => setShow(!show)
+
+    const props = useSpring({
+        to: { opacity: 1, translateX: '0' }, from: { opacity: 0, translateX: '-40px' }, delay: 400,
     })
+
     return (
         <>
             <div className={`mouse-memoirs ${styles['title-navbar']}`}>
@@ -20,16 +18,26 @@ export default function Navbar() {
                 <animated.hr style={props} />
             </div>
             <section className={styles.section}>
-                <li className={`${router.pathname === '/' ? styles.active : ''} poppins`}>
-                    <Link href={'/'}>About me</Link>
+                <li className={`poppins`}>
+                    <Link href={'/'} passHref>
+                        <a className={`${router.pathname === '/' ? styles.active : ''}`}>
+                            About me
+                        </a>
+                    </Link>
                 </li>
-                <li className={`${router.pathname === '/project' ? styles.active : ''} poppins`}>
-                    <Link href={'/project'}>Project</Link>
-
+                <li className={` poppins`}>
+                    <Link href={'/project'}>
+                        <a className={`${router.pathname === '/project' ? styles.active : ''}`}>
+                            Project
+                        </a>
+                    </Link>
                 </li>
-                <li className={`${router.pathname === '/contact' ? styles.active : ''} poppins`}>
-                    <Link href={'/contact'}>Contact</Link>
-
+                <li className={` poppins`}>
+                    <Link href={'/contact'}>
+                        <a className={`${router.pathname === '/contact' ? styles.active : ''}`}>
+                            Contact
+                        </a>
+                    </Link>
                 </li>
             </section>
         </>

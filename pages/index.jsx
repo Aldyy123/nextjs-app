@@ -29,7 +29,7 @@ export default function About() {
             </Head>
             <Profile />
 
-            <animated.div style={animation}>
+            <animated.div style={animation} className="poppins">
                 <hr style={styles.hr} />
                 <p>Hai 👋 selamat datang.</p>
                 <p>
