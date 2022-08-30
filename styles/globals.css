@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Mouse+Memoirs&family=Poppins&display=swap');
 body {
   padding: 0;
   margin: 0;
@@ -7,7 +8,9 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .mouse-memoirs{
-  font-family: 'Mouse Memoirs', sans-serif;
+  /* font-family: 'Mouse Memoirs', sans-serif; */
+  font-family: 'Gruppo', cursive;
+
 }
 .poppins{
   font-family: 'Poppins', sans-serif;
