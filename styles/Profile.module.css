@@ -1,21 +1,22 @@
 .profile{
-    display: grid;
-    grid-template-columns: 350px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 4rem auto;
+    text-align: center;
     max-width: 1600px!important;
 }
-.img-profile{
-    width: 200px!important;
-    max-width: 200px;
-    box-shadow: 15px 15px 3px #4D77FF;
-    border-radius: 20px!important;
+.img-profile { width: 200px; border-radius: 50%; } 
+.img-profile img { width: 100%; clip-path: circle(); }
+
+.name-profile h2{
+    letter-spacing: 5px;
+    font-size: 30px;
 }
-.img-profile img{
-    border-radius: 20px!important;
-}
-.name-profile h2, .name-profile h3{
-    font-family: 'Cabin', sans-serif;
+
+.name-profile h3{
+    color: #5B4B8A;
+    font-size: 13px;
 }
 
 @media only screen and (max-width: 680px) {

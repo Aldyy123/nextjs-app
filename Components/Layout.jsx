@@ -1,15 +1,18 @@
-import Profile from "./Profile"
 import Navbar from "./Navbar"
 
 export default function Layout({ children }) {
     return (
         <>
             <main className="container">
-                <Profile />
                 <Navbar/>
                 <section className='container-content'>
                     {children}
                 </section>
+                <hr />
+                <p style={{
+                    textAlign: 'center',
+                    color: "#7858A6"
+                }}>Copyright @aldyy</p>
             </main>
         </>
     )

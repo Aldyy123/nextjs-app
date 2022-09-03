@@ -8,13 +8,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "html" : "next build && next export",
-    "export" : "next export"
+    "html": "next build && next export",
+    "export": "next export"
   },
   "dependencies": {
     "next": "12.1.5",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "react-spring": "^9.5.2"
   },
   "devDependencies": {
     "eslint": "8.14.0",

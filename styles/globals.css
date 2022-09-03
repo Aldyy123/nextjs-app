@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cabin&display=swap');html,
+/* @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Mouse+Memoirs&family=Poppins&display=swap');
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+.mouse-memoirs{
+  /* font-family: 'Mouse Memoirs', sans-serif; */
+  font-family: 'Gruppo', cursive;
 
+}
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -21,14 +30,23 @@ a {
   margin: 0 auto;
 }
 .container-content{
-  background-color: #4D77FF;
-  border-radius: 10px;
+  /* background-color: #4D77FF;
+  border-radius: 10px; */
+  margin-bottom: 3rem!important;
   width: 100%;
   max-width: 1600px;
   padding: 20px;
-  margin-bottom: 3rem!important;
-  margin: 0 auto;
+  margin: 20px auto!important;
 }
-.container-content > p{
-  color: white;
+.container-content p{
+  color: #4C3575;
+}
+
+@media only screen and (max-width: 680px) {
+  .container{
+    padding: 5px;
+  }
+  .container-content{
+    padding: 0;
+  }
 }

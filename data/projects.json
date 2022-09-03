@@ -9,11 +9,11 @@
     },
     {
         "id": 2,
-        "title": "API Konsultasi",
+        "title": "API SD Alkhairiyah",
         "image": "/projects/api-consultant.png",
-        "langs" : ["Typescript", "Nest Js"],
-        "url" : "https://github.com/Aldyy123/api-consultant",
-        "text": "Data API konsultasi menggunakan nest js untuk membuat system backendnya. Mulai untuk login, register maupun management data."
+        "langs" : ["PHP", "Laravel"],
+        "url" : "https://sdalkhairiyyahtegal.sch.id/",
+        "text": "Data API sd al khairiyyah tegal menggunakan laravel untuk membuat system backendnya. Untuk system management data"
     },
     {
         "id": 3,
