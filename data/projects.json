@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "title": "konsultasi",
-        "image": "/projects/consultant.png",
-        "text": "Aplikasi konsultasi layanan komputer secara online yang bisa membantu orang untuk menyelesaikan masalah elekronik. \nLayanan komputer ini bisa di dapatkan di kota manamun, selama ada teknisi yang tersedia di lokasi",
-        "langs" : ["JS", "React Js", "API"],
-        "url" : "https://github.com/Aldyy123/konsultasi"
+        "title": "CMS Integration",
+        "image": "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
+        "text": "Membuat layanan API E-Commerce Development. Aplikasi ini berguna untuk meyediakan product dan category",
+        "langs" : ["JS", "ExpressJS", "API", "MYSQL", "NodeJS"],
+        "url" : "https://github.com/Aldyy123/backend-ecoomerce"
     },
     {
         "id": 2,
@@ -46,5 +46,45 @@
         "image": "/projects/wisata.png",
         "langs" : ["PHP", "Bootstrap", "MYSQL"],
         "text": "CRUD wisata dan pemesanan tiket wisata untuk pengunjung"
+    },
+    {
+        "id": 7,
+        "title" : "TeknisiKuAja",
+        "url" : "https://github.com/Aldyy123/teknisikuaja",
+        "image" : "https://raw.githubusercontent.com/Aldyy123/teknisikuaja/master/doc/preview.png",
+        "langs" : ["Laravel", "JavaScript", "CSS", "PHP", "Bootstrap", "MYSQL", "HTML", "Tailwind"],
+        "text" : "Teknsiku aplikasi inovasi tim yang di kembangkan untuk users yang mengalamai permasalahan dengan perangkat elektronik"
+    },
+    {
+        "id": 8,
+        "title" : "Post Article",
+        "url" : "https://github.com/Aldyy123/rakamin-vi",
+        "image" : "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
+        "langs" : ["Laravel", "JavaScript", "CSS", "PHP", "MYSQL", "HTML", "Tailwind", "Unit Testing"],
+        "text" : "Rest API menggunakan laravel, MySQL dan Unit Testing. Challenges rakamin x Investree Virtual Internship"
+    },
+    {
+        "id": 9,
+        "title" : "BookShelf API",
+        "url" : "https://github.com/Aldyy123/bookshelf-api",
+        "image" : "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
+        "langs" : ["Hapi JS", "JavaScript", "NodeJS"],
+        "text" : "Bookshelf API Challenges from Dicoding"
+    },
+    {
+        "id": 10,
+        "title" : "Arsy Digicom",
+        "url" : "https://taupe-puffpuff-a9d761.netlify.app/",
+        "image" : "/projects/landing-arsy.png",
+        "langs" : ["React Js", "JavaScript"],
+        "text" : "Project website di bidang layanan dan jasa (Ongoing)"
+    },
+    {
+        "id": 11,
+        "title" : "Backend API Product and Blog",
+        "url" : "https://github.com/Aldyy123/new-backend",
+        "image" : "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
+        "langs" : ["ExpressJS", "NodeJS",  "JavaScript"],
+        "text" : "API Product and Blog"
     }
 ]

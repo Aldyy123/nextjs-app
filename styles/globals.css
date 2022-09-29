@@ -42,6 +42,25 @@ a {
   color: #4C3575;
 }
 
+.see-cv{
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #5B4B8A;
+  color: white;
+  content: 'haloo';
+  border: 1px;
+  padding: 10px 20px;
+}
+
+.see-cv:hover{
+  background-color: transparent!important;
+  color: black;
+  border: 1px solid #4C3575;
+  transition: all 0.5s ease-in-out;
+  box-sizing: content-box;
+}
+
 @media only screen and (max-width: 680px) {
   .container{
     padding: 5px;

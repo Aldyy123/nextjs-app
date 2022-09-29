@@ -31,12 +31,17 @@
     display: flex;
     gap: 10px;
     margin: 15px;
+    flex-wrap: wrap;
+}
+.projects > a > div:first-child{
+    display: flex;
 }
 .projects .stack-lang{
     padding: 5px;
     background-color: #7858A6;
     border-radius: 5px;
     color: #F1F1F1;
+    font-weight: bold;
     letter-spacing: 2px;
 }
 .github-section{
@@ -44,16 +49,16 @@
     display: flex;
     justify-content: center;
 }
-.github-section a{
-    padding: 10px 20px!important;
+.github-section a:hover{
     display: inline-block;
     background-color: #b0b2b2;
-    color: #5B4B8A;
-    border-radius: 10px;
     transition: all 0.5s ease-out;
-}
-.github-section a:hover{
+    color: #5B4B8A;
     border-radius: none;
+}
+.github-section a{
+    border-radius: 10px;
+    padding: 10px 20px!important;
     background-color: #5B4B8A;
     color: white;
     content: 'haloo';
