@@ -6,7 +6,7 @@ export default function About() {
     const animation = useSpring({
         to: {
             opacity: 1, translateX: '0',
-        }, 
+        },
         from: { opacity: 0, translateX: '-40px' }, delay: 100,
     })
     const styles = {
@@ -32,13 +32,23 @@ export default function About() {
             <animated.div style={animation} className="poppins">
                 <hr style={styles.hr} />
                 <p>Hai 👋 selamat datang.</p>
-                <p>
+                {/* <p>
                     Saya seorang freelance developer yang berfokus ke dalam website frontend maupun backend.
                     Awal mula saya menjadi programmer itu karena saya suka mempelajari hal yang berbau IT Sejak SMP,
                     dimana mempelajari hardware komputer, jaringan dan design. Namun saya bertemu dengan hal yang benar - benar saya ingin fokus
                     dan saya sukai yaitu Developer. Menjadi developer seperti hal yang magic bagi saya, melakukan hal yang mustahil menjadi tidak mustahil.
                     Saya mempelajari bahasa pemprogramman sejak tahun 2019 sampai sekarang.  Stack yang saya gunakan itu javascript, css dan php.
                     Framework yang saya gunakan pada saat membuat website itu react, karena framework yang mudah dan modern untuk website jaman now
+                </p> */}
+                <p style={{
+                    textAlign: 'justify'
+                }}>
+                    Saya memiliki 1 tahun pengalaman di bidang teknologi. Saya telah menyelesaikan aplikasi menggunakan javascript dan PHP. Saya beberapa kali membangun real projects atau fake projects. Saat ini, bekerja sebagai freelance.
+                </p>
+                <p style={{
+                    textAlign: 'justify'
+                }}>
+                    Awal mula saya menjadi programmer itu karena saya suka mempelajari hal yang berbau IT Sejak SMP, dimana mempelajari hardware komputer, jaringan dan design. Namun saya bertemu dengan hal yang benar - benar saya ingin fokus dan saya sukai yaitu Developer. Menjadi developer seperti hal yang magic bagi saya, melakukan hal yang mustahil menjadi tidak mustahil. Saya mempelajari bahasa pemprogramman sejak tahun 2019 sampai sekarang. Stack yang saya gunakan itu javascript, css dan php. Framework yang saya gunakan pada saat membuat website itu react, karena framework yang mudah dan modern untuk website jaman now dan backend menggunakan nodejs express / laravel
                 </p>
                 <a className="see-cv" target={'_blank'} href="https://drive.google.com/file/d/1uP4aTGrmyjDNVYvRNYZ57BaJD1M2xxLV/view?usp=sharing" rel="noreferrer">📋 See CV</a>
             </animated.div>
