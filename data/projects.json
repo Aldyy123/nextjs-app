@@ -21,7 +21,7 @@
         "image": "https://raw.githubusercontent.com/Aldyy123/todo-react/master/doc.png",
         "url" : "https://github.com/Aldyy123/todo-react",
         "langs" : ["JS", "React Js"],
-        "text": "Aplikasi yang digunakan untuk membuat todo list user. Todo list ini hanya menggunakan state management system."
+        "text": "Application a used to create the todo list user. This the Todo list only use the state management system."
     },
     {
         "id": 4,
@@ -29,23 +29,23 @@
         "image": "/projects/resto.png",
         "url" : "https://github.com/Aldyy123/Restaurants-apps",
         "langs" : ["JS", "CSS", "Webpack", "API"],
-        "text": "Aplikasi list tempat restaurant menggunakan API dari Dicoding"
+        "text": "Application list a place restaurant using API from Dicoding"
     },
     {
         "id": 5,
-        "title": "Pembukuan Excel",
+        "title": "Book Journal Excel",
         "image": "https://raw.githubusercontent.com/Aldyy123/pebukuan-excel/master/doc/system.png",
         "url" : "https://github.com/Aldyy123/pebukuan-excel",
         "langs" : ["Python"],
-        "text": "Aplikasi untuk pencatatan keuangan menggunakna python dan mencataat otomatis di excel"
+        "text": "Application for recording the finance using the python that can record with automatically in excel"
     },
     {
         "id": 6,
-        "title": "CRUD Wisata dan pengunjung",
+        "title": "CRUD Tours and Visitors",
         "url" : "https://github.com/Aldyy123/bnsp",
         "image": "/projects/wisata.png",
         "langs" : ["PHP", "Bootstrap", "MYSQL"],
-        "text": "CRUD wisata dan pemesanan tiket wisata untuk pengunjung"
+        "text": "CRUD tour is an application that can the order tickets for tours for visitors"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "url" : "https://github.com/Aldyy123/teknisikuaja",
         "image" : "https://raw.githubusercontent.com/Aldyy123/teknisikuaja/master/doc/preview.png",
         "langs" : ["Laravel", "JavaScript", "CSS", "PHP", "Bootstrap", "MYSQL", "HTML", "Tailwind"],
-        "text" : "Teknsiku aplikasi inovasi tim yang di kembangkan untuk users yang mengalamai permasalahan dengan perangkat elektronik"
+        "text" : "Application Teknisiku is an innovation developed by my team to users needs which experience the mistake with devices electronic"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "url" : "https://github.com/Aldyy123/rakamin-vi",
         "image" : "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
         "langs" : ["Laravel", "JavaScript", "CSS", "PHP", "MYSQL", "HTML", "Tailwind", "Unit Testing"],
-        "text" : "Rest API menggunakan laravel, MySQL dan Unit Testing. Challenges rakamin x Investree Virtual Internship"
+        "text" : "Rest API using laravel, MySQL and Unit Testing. Challenges from rakamin x Investree Virtual Internship"
     },
     {
         "id": 9,
@@ -77,7 +77,7 @@
         "url" : "https://taupe-puffpuff-a9d761.netlify.app/",
         "image" : "/projects/landing-arsy.png",
         "langs" : ["React Js", "JavaScript"],
-        "text" : "Project website di bidang layanan dan jasa"
+        "text" : "Project website in services"
     },
     {
         "id": 11,
