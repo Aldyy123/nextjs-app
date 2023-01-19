@@ -3,7 +3,7 @@
         "id": 1,
         "title": "CMS Integration",
         "image": "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
-        "text": "Membuat layanan API E-Commerce Development. Aplikasi ini berguna untuk meyediakan product dan category",
+        "text": "Crate API service E-Commerce Development. This Application can provode a product and category the need ecoomerce",
         "langs" : ["JS", "ExpressJS", "API", "MYSQL", "NodeJS"],
         "url" : "https://github.com/Aldyy123/backend-ecoomerce"
     },
@@ -13,7 +13,7 @@
         "image": "/projects/api-consultant.png",
         "langs" : ["PHP", "Laravel"],
         "url" : "https://sdalkhairiyyahtegal.sch.id/",
-        "text": "Data API sd al khairiyyah tegal menggunakan laravel untuk membuat system backendnya. Untuk system management data"
+        "text": "Create API for elementary school, and need API can provide more information about the school and then the system can create tracking "
     },
     {
         "id": 3,
