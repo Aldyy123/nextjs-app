@@ -89,10 +89,10 @@
     },
     {
         "id": 12,
-        "title" : "Frontend Developer | Create Dashboard product for MySkill",
-        "url" : "https://github.com/Aldyy123/new-backend",
+        "title" : "Create Dashboard for Employes Management and Product from client",
+        "url" : "https://experience.myskill.id/",
         "image" : "/projects/myskill-project.png",
         "langs" : ["Next JS", "React Js",  "JavaScript", "Tailwind", "Rest API"],
-        "text" : "Membuat aplikasi yang berfungsi untuk memanajemen karyawan bagi perusahaan yang membutuhkan"
+        "text" : "Create applications that function to manage employees for companies in need"
     }
 ]
