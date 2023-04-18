@@ -14,7 +14,7 @@ export default function Profile(){
         <>
             <animated.div style={animation} className={styles.profile}>
                 <div className={styles['img-profile']}>
-                    <Image layout="responsive" src={profile} alt="user" />
+                    <Image layout="responsive" src='https://storage.googleapis.com/bangkit-aldyy-2023/profile.jpg' height="300" width="300" alt="user" />
                 </div>
                 <div className={styles['name-profile']}>
                     <h2 className="mouse-memoirs">M. Ardi Trisnaldi</h2>
