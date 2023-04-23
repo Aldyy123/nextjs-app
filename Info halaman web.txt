@@ -1,6 +1,0 @@
-IP Compute Engine
-http://34.87.189.153/
-
-URL App Engine
-https://project-1-service-dot-starter-project-380803.et.r.appspot.com/
-

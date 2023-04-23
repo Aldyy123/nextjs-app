@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   distDir: 'build',
   images: {
-    domains: ["cdn.pixabay.com", 'img.icons8.com', 'raw.githubusercontent.com', 'storage.googleapis.com']
+    domains: ["cdn.pixabay.com", 'img.icons8.com', 'raw.githubusercontent.com']
   },
   images: {
     loader : "akamai",
