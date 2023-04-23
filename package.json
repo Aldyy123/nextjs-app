@@ -5,7 +5,7 @@
   "homepage": "https://Aldyy123.github.io/",
   "scripts": {
     "dev": "next dev",
-    "build": "rm -rf .next && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "html": "next build && next export",

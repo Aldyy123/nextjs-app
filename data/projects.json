@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "API SD Alkhairiyah",
-        "image": "https://storage.googleapis.com/bangkit-aldyy-2023/api-consultant.png",
+        "image": "/projects/api-consultant.png",
         "langs" : ["PHP", "Laravel"],
         "url" : "https://sdalkhairiyyahtegal.sch.id/",
         "text": "Create API for elementary school, and need API can provide more information about the school and then the system can create tracking "
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Restaurant",
-        "image": "https://storage.googleapis.com/bangkit-aldyy-2023/resto.png",
+        "image": "/projects/resto.png",
         "url" : "https://github.com/Aldyy123/Restaurants-apps",
         "langs" : ["JS", "CSS", "Webpack", "API"],
         "text": "Application list a place restaurant using API from Dicoding"
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "CRUD Tours and Visitors",
         "url" : "https://github.com/Aldyy123/bnsp",
-        "image": "https://storage.googleapis.com/bangkit-aldyy-2023/wisata.png",
+        "image": "/projects/wisata.png",
         "langs" : ["PHP", "Bootstrap", "MYSQL"],
         "text": "CRUD tour is an application that can the order tickets for tours for visitors"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "title" : "Arsy Digicom",
         "url" : "https://taupe-puffpuff-a9d761.netlify.app/",
-        "image" : "https://storage.googleapis.com/bangkit-aldyy-2023/landing-arsy.png",
+        "image" : "/projects/landing-arsy.png",
         "langs" : ["React Js", "JavaScript"],
         "text" : "Project website in services"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "title" : "Create Dashboard for Employes Management and Product from client",
         "url" : "https://experience.myskill.id/",
-        "image" : "https://storage.googleapis.com/bangkit-aldyy-2023/myskill-project.png",
+        "image" : "/projects/myskill-project.png",
         "langs" : ["Next JS", "React Js",  "JavaScript", "Tailwind", "Rest API"],
         "text" : "Create applications that function to manage employees for companies in need"
     }
