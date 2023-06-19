@@ -44,9 +44,9 @@ export default function About() {
                     textAlign: 'justify'
                 }}>
                     {/* Saya memiliki 1 tahun pengalaman di bidang teknologi. Saya telah menyelesaikan aplikasi menggunakan javascript dan PHP. Saya beberapa kali membangun real projects atau fake projects. Saat ini, bekerja sebagai freelance. */}
-                    I have 3+ years of experience on to major Information Technology. I was completed to few projects using languages javascript and PHP. 
-                    I am also interested in programming language because i want to create a product for help anyone that use the application.
-                    Now I work as Freelancer developer, and then currently working on a product from another company.
+                    I have 2+ years of experience as a software developer.
+                    I am also interested in programming language because I want to create a product to help anyone that uses the application.
+                    Now I work as a Freelancer developer.
                 </p>
                 {/* <p style={{
                     textAlign: 'justify'
