@@ -10,6 +10,8 @@ export default function Project(props) {
     const animation = useSpring({
         to: { opacity: 1, translateX: '0' }, from: { opacity: 0, translateX: '-40px' }, delay: 100,
     })
+    const convertToStrig = JSON.stringify(fileJson)
+
     return (
         <>
             <Head>
@@ -20,7 +22,7 @@ export default function Project(props) {
                 <meta name="og:type" content="website" />
             </Head>
             <animated.div style={animation} className={styles.projects}>
-                {fileJson.map(value => (
+                {JSON.parse(convertToStrig).reverse().map(value => (
                     <a href={value.url} target="_blank" rel='noreferrer' key={value.id}>
                         <div>
                             <Image src={value.image} alt={value.title} width={500} height={200} />

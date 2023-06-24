@@ -12,6 +12,7 @@
 .projects h2{
     text-align: center; 
     text-transform: uppercase;
+    padding: 0 10px;
 }
 .projects p{
     margin: 0 15px;

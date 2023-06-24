@@ -16,14 +16,6 @@
         "text": "Create API for elementary school, and need API can provide more information about the school and then the system can create tracking "
     },
     {
-        "id": 3,
-        "title": "Todo React",
-        "image": "https://raw.githubusercontent.com/Aldyy123/todo-react/master/doc.png",
-        "url" : "https://github.com/Aldyy123/todo-react",
-        "langs" : ["JS", "React Js"],
-        "text": "Application a used to create the todo list user. This the Todo list only use the state management system."
-    },
-    {
         "id": 4,
         "title": "Restaurant",
         "image": "/projects/resto.png",
@@ -92,7 +84,31 @@
         "title" : "Create Dashboard for Employes Management and Product from client",
         "url" : "https://experience.myskill.id/",
         "image" : "/projects/myskill-project.png",
-        "langs" : ["Next JS", "React Js",  "JavaScript", "Tailwind", "Rest API"],
+        "langs" : ["Next JS", "React Js",  "JavaScript", "Tailwind", "Rest API", "Redux Toolkit", "Redux"],
         "text" : "Create applications that function to manage employees for companies in need"
+    },
+    {
+        "id": 13,
+        "title" : "Calender Event for Halal Kemanag RI",
+        "url" : "https://kalender.halal.go.id",
+        "image" : "/projects/calender.png",
+        "langs" : ["Next JS", "React Js",  "JavaScript", "Tailwind", "Rest API"],
+        "text" : "Apps for create event and can show in the calender, then reading the article can be found"
+    },
+    {
+        "id": 14,
+        "title" : "App Android for Person Disability (Tuna Netra)",
+        "url" : "https://github.com/Aldyy123/tracking-disabilitas",
+        "image" : "/projects/track-disability.jpg",
+        "langs" : ["React Js", "React Native",  "Typescript", "Rest API", "Redux Toolkit", "Redux", "MapBox"],
+        "text" : "App Android for tracking Person Disability (Tuna Netra) with android then integration with maps, and this app must be additional devices like the stick for person disability"
+    },
+    {
+        "id": 15,
+        "title" : "REST APIs AUTOMATE Campus",
+        "url" : "https://github.com/Aldyy123/campus-backend",
+        "image" : "https://miro.medium.com/max/1400/1*-dbPsi8Mdqj5Y0454eGvPQ.png",
+        "langs" : ["Node JS", "ExpressJS",  "JavaScript", "Postgree", "Rest API", "SQL", "Cloud Computing", "GCP"],
+        "text" : "Create APIs with system automate schedules and review lessons from students and lecturers in campus. This project is for my final project in Bangkit 2023"
     }
 ]
