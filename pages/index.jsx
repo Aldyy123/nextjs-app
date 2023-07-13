@@ -68,7 +68,7 @@ export default function About() {
           My interest in becoming a Software Developer began when I started learning
           about IT-related topics during middle school. I was fascinated by
           computer hardware, networks, and design. However, I discovered my true
-          passion and interest in becoming a Developer, whether it's in
+          passion and interest in becoming a Developer, whether it{'\''}s in
           Frontend, Backend, Fullstack, Android, or Cloud Computing.
         </p>
         <p
