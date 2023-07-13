@@ -18,7 +18,7 @@ export default function Profile(){
                 </div>
                 <div className={styles['name-profile']}>
                     <h2 className="mouse-memoirs">M. Ardi Trisnaldi</h2>
-                    <h3 className="poppins">Web Developer Enthusiast</h3>
+                    <h3 className="poppins">Software Developer</h3>
                 </div>
             </animated.div>
         </>

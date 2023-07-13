@@ -12,7 +12,7 @@ export default function Layout({ children }) {
                 <p style={{
                     textAlign: 'center',
                     color: "#7858A6"
-                }}>Copyright @aldyy</p>
+                }}>Copyright {new Date().getFullYear()} @aldyy</p>
             </main>
         </>
     )
